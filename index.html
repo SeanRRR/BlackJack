@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Blackjack Game</title>
+        <link rel="stylesheet" href="index.css"></link>
+    </head>
+    <body>
+
+        <div class = "container">
+            <div id = "dealerCol">
+                <h1>Dealer</h1>
+                <img id = "dcard1" src = "trans.png"></img>
+                <img id = "dcard2" src = "trans.png"></img>
+                <img id = "dcard3" src = "trans.png"></img>
+                <img id = "dcard4" src = "trans.png"></img>
+                <img id = "dcard5" src = "trans.png"></img>
+                <p id="dsum-el"></p>
+            </div>
+            <div id = "menu">
+                <h1>Blackjack</h1>
+                <p id="message-el">Place Your Bet</p>
+                <button onclick="startGame()">START GAME</button>
+                <br>
+                <button onclick="playerNewCard()">HIT</button>
+                <button onclick="stand()">STAND</button>
+                <br>
+                <div id = "money">
+                <span id="player-el">Balance: $500</span>
+                <span id="betMessage-el">Bet: </span>
+                </div>
+                <br>
+            </div>
+            <div id = "playerCol">
+                <h1>Player:</h1>
+                <img id = "pcard1" src = "trans.png"></img>
+                <img id = "pcard2" src = "trans.png"></img>
+                <img id = "pcard3" src = "trans.png"></img>
+                <img id = "pcard4" src = "trans.png"></img>
+                <img id = "pcard5" src = "trans.png"></img>
+            </div>
+        </div>
+        <div class = "container2">
+        <button onclick = "bet25()"> BET 25% </button>
+        <button onclick = "bet50()"> BET 50% </button>
+        <button onclick = "bet75()"> BET 75% </button>
+        <button onclick = "bet100()"> BET 100% </button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

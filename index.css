@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    justify-content: space-around
+    
+}
+
+.container2 {
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(CasinoBackground.jpg);
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+img {
+    border: "";
+    width: 70px;
+    position: relative;
+    text-decoration: none;
+}
+
+/* #dcard1 {
+    left: 40px
+}
+
+#dcard2 {
+    top: .5px;
+    right: 20px;
+}
+
+#dcard3 {
+    top: 2.24px;
+    right: 81px
+}
+
+#dcard4 {
+    bottom: 100px;
+    left: 50px;
+} */
+
+button {
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-weight: bold;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    
+}
+
+#playerCol {
+    margin-left: 0px;
+}
+
+#menu {
+    margin: 0% 
+}
+
+#dealerCol {
+    margin-right: px;
+}
+
+#player-el {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+p {
+    margin: 10px;
+}
+
+money {
+    margin-top: 10px;
+}
